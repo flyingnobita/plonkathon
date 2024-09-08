@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 py-ecc = "^7"
-merlin = {git = "https://github.com/nalinbhardwaj/curdleproofs.pie", rev = "master", subdirectory = "merlin"}
+merlin_transcripts = { git = "https://github.com/nalinbhardwaj/curdleproofs.pie", rev = "master", subdirectory = "merlin_transcripts" }
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^0.991"
