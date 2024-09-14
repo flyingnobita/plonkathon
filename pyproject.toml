@@ -12,8 +12,8 @@ py-ecc = "^7"
 merlin_transcripts = { git = "https://github.com/nalinbhardwaj/curdleproofs.pie", rev = "master", subdirectory = "merlin_transcripts" }
 
 [tool.poetry.group.dev.dependencies]
-mypy = "^0.991"
-black = "^22.12.0"
+mypy = "^1"
+black = "^24"
 
 [build-system]
 requires = ["poetry-core"]
